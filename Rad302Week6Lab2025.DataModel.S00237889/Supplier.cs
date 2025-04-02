@@ -23,7 +23,6 @@ namespace Rad302Week6Lab2025.DataModel.S00237889
         public string PostalCode { get; set; }
         public string Country { get; set; }
         public string Phone { get; set; }
-
         public List<Product> SupplierProducts { get; set; } = new List<Product>();
     }
 }
